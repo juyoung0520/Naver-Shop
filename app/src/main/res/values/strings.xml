@@ -1,5 +1,7 @@
 <resources>
     <string name="app_name">Naver Shop</string>
-    <string name="search_title">검색</string>
-    <string name="search_hint">상품검색</string>
+    <string name="msg_search_item">상품검색</string>
+    <string name="msg_more">더보기</string>
+    <string name="msg_item_name">메종 마르지엘라 가방 5AC 스몰 블랙 여성 토트백 크로스백</string>
+    <string name="msg_item_price"><b>982,600</b>원</string>
 </resources>

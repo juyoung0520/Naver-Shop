@@ -8,12 +8,15 @@ import android.view.View
 import android.view.ViewGroup
 import android.widget.LinearLayout
 import androidx.fragment.app.Fragment
+import androidx.fragment.app.viewModels
 import androidx.lifecycle.LiveData
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
+import com.example.navershop.viewmodel.ItemViewModel
 import kotlinx.android.synthetic.main.fragment_items.view.*
 
 class ItemsFragment : Fragment() {
+    private val viewModel : ItemViewModel by viewModels()
     override fun onCreateView(
         inflater: LayoutInflater,
         container: ViewGroup?,
@@ -42,7 +45,6 @@ class ItemsFragment : Fragment() {
         }
 
         override fun getItemCount(): Int {
-            return
         }
     }
 }
